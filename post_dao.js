@@ -1,7 +1,7 @@
 var MongoClient = require('mongodb').MongoClient;
 var ObjectID = require('mongodb').ObjectID;
-var PRIVATE_DB_IP = "192.168.0.217";
-var PUBLIC_DB_IP = "innovation-voting-mongodb.whitbread.digital";
+var PRIVATE_DB_IP = "----------"; // can be an url
+var PUBLIC_DB_IP = "----------"; // can be an url
 var url;
 var dbConnection;
  
